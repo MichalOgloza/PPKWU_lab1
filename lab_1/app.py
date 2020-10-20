@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello World"
+    return "This API has a reverse string functionality available at address: /reverse/textToReverse"
 
 
 @app.route("/reverse/<text>")
