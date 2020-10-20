@@ -10,7 +10,7 @@ def home():
 
 @app.route("/reverse/<text>")
 def revert(text):
-    return text
+    return text[::-1]
 
 
 if __name__ == '__main__':
